@@ -29,7 +29,7 @@ DEBUG = False
 CORS_ORIGIN_ALLOW_ALL = True
 
 # Add 127.0.0.1 to ALLOWED_HOSTS
-ALLOWED_HOSTS = ['https://todolism.herokuapp.com/']
+ALLOWED_HOSTS = ['todolism.herokuapp.com']
 
 
 # Application definition
