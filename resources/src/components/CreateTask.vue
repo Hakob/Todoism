@@ -49,7 +49,7 @@
         if (this.new_task.description) {
           axios({
             method: 'post',
-            url: 'http://127.0.0.1:8000/tasks/',
+            url: `https://${window.location.hostname}/tasks/`,
             data: this.new_task,
 
           }).then((response) => {

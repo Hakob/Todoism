@@ -129,7 +129,7 @@
       getTasks() {
         axios({
           method: 'get',
-          url: 'http://127.0.0.1:8000/tasks/',
+          url: `https://${window.location.hostname}/tasks/`,
 
         }).then(response => {
           this.tasks = response.data;

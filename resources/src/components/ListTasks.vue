@@ -67,7 +67,7 @@
 
         axios({
           method: 'put',
-          url: 'http://127.0.0.1:8000/tasks/' + task_id + '/',
+          url: `https://${window.location.hostname}/tasks/${task_id}/`,
           headers: {
             'Content-Type': 'application/json'
           },
@@ -90,7 +90,7 @@
       deleteTask(task_id) {
         axios({
           method: 'delete',
-          url: 'http://127.0.0.1:8000/tasks/' + task_id + '/',
+          url: `https://${window.location.hostname}/tasks/${task_id}/`,
           headers: {
             'Content-Type': 'application/json'
           },
