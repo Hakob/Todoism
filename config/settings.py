@@ -23,13 +23,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '363*y374yedqufn#r+1r%5+a-8t$pnuip0m#o-17a1r%y5njh='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # Add this lines where you want
 CORS_ORIGIN_ALLOW_ALL = True
 
 # Add 127.0.0.1 to ALLOWED_HOSTS
-ALLOWED_HOSTS = ['https://todolism.herokuapp.com/']
+ALLOWED_HOSTS = ['https://todolism.herokuapp.com/', '0.0.0.0']
 
 
 # Application definition
